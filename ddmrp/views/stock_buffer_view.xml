@@ -29,8 +29,11 @@
                 <field name="execution_priority_level" invisible="1" />
                 <field
                     name="on_hand_percent"
-                    options='{"color_from": "execution_priority_level"}'
+                    options='{"color_from": "execution_priority_level", "field": "ddmrp_chart_execution"}'
+                    widget="stock_buffer_info"
                 />
+                <field name="ddmrp_chart" invisible="1" />
+                <field name="ddmrp_chart_execution" invisible="1" />
                 <button
                     title="Refresh Buffer"
                     name="refresh_buffer"

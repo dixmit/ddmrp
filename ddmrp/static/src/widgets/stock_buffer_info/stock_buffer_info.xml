@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<template id="template" xml:space="preserve">
+
+    <!-- TODO: rename this to QtyAtDate in master version -->
+    <t t-name="ddmrp.StockBufferInfoWidget" owl="1">
+        <!--<div t-att-class="!props.record.data.display_qty_widget ? 'invisible' : ''">-->
+        <div>
+            <!--<a t-att-tabindex="props.record.data.display_qty_widget ? '0' : '-1'" t-on-click="showPopup" t-attf-class="fa fa-area-chart {{ calcData.forecasted_issue ? 'text-danger' : 'text-primary' }}"/>-->
+            <a
+                t-att-tabindex="'0'"
+                t-on-click="showPopup"
+                t-attf-class="fa fa-area-chart"
+            />
+        </div>
+    </t>
+    <t t-name="ddmrp.QtyAtDatePopover" owl="1">
+        <div>
+            HOLA
+        </div>
+    </t>
+
+</template>

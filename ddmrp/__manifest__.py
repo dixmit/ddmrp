@@ -61,6 +61,12 @@
         "demo/stock_buffer_demo.xml",
     ],
     "post_load": "post_load_hook",
+    "assets": {
+        "web.assets_backend": [
+            "ddmrp/static/src/widgets/stock_buffer_info.esm.js",
+            "ddmrp/static/src/widgets/stock_buffer_info.xml",
+        ]
+    },
     "installable": True,
     "application": True,
 }
